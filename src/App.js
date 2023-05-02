@@ -1,9 +1,9 @@
 import './App.css';
 import axios from 'axios';
 
-async function App() {
-  const res = await axios.get('http://localhost:4000');
-  console.log(res.data);
+function App() {
+  // const res = await axios.get('http://localhost:4000');
+  // console.log(res.data);
 
   return (
     <div className="App">
